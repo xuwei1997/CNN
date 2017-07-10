@@ -2,7 +2,6 @@ from keras.models import Sequential
 from keras.layers import Dense, Activation,convolutional,pooling,core
 import keras
 from keras.datasets import  cifar10
-from keras.models import load_model
 
 if __name__ == "__main__":
     (X_train,Y_train),(X_test,Y_test)=cifar10.load_data()
